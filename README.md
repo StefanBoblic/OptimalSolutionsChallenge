@@ -24,7 +24,7 @@ Custom exceptions were created in a separated package `exceptions`, I only creat
 For `logging` I am going to use the [slf4j](https://www.slf4j.org/) library, I've had some practical experience at my previous work place with it and this is why I chose it.
 
 ## Running the application
-In order to test the application, you will have to use `Postman`(or anything else you like), app runs on `localhost: 8080`
+Download the project, via github or simply by downloading it. Make sure to establish connection with the database. This app is using `MSSQL`.When you will launch it for the first time, it will take a little bit of time for all the libraries to download.In order to test the application, you will have to use `Postman`(or anything else you like), app runs on `localhost: 8080`. The Json `GET` request does not work properly because of DAO layer.
 
 ## List of dependencies 
 
